@@ -1,0 +1,4 @@
+Stepmotor	KEYWORD1
+setdelay	KEYWORD2
+anticlockwise	KEYWORD2
+clockwise	KEYWORD2
