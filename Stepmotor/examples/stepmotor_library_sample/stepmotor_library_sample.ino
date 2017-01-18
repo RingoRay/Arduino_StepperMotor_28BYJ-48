@@ -1,13 +1,13 @@
 #include <Stepmotor.h>    // Include the lib for 28BYJ-48 written by Kai.
 
 int stepsperrev = 64;      // 64 steps per full revolution, which means 512 counts(phases) per full revolution.
-int _motorPin1 = 10;
-int _motorPin2 = 11;
-int _motorPin3 = 12;
-int _motorPin4 = 13;
+int motorPin1 = 10;
+int motorPin2 = 11;
+int motorPin3 = 12;
+int motorPin4 = 13;
 int motorSpeed = 1200;      // This variable actually defines the delay among every two counts, here we set 1200 microseconds.
 
-Stepmotor stepmotor(stepsperrev, _motorPin1, _motorPin2, _motorPin3, _motorPin4 );
+Stepmotor stepmotor(stepsperrev, motorPin1, motorPin2, motorPin3, motorPin4 );
 
 void setup()
 {
